@@ -50,6 +50,6 @@ const styles = StyleSheet.create({
         flexDirection:'column',
     },
     txt:{
-        color:'#fff',
+        color:'#f1f1f1',
     }
 })
