@@ -5,11 +5,16 @@ import NavBar from './components/NavBar';
 
 export default function App() {
   return (
+    <View>
     <View style={styles.container}>
       <TitleBar/>
-      <NavBar/>
 
       <StatusBar style="auto" />
+
+    </View>
+    <View style={styles.container1}>
+        <NavBar/>
+      </View>
       
     </View>
   );
@@ -23,7 +28,10 @@ const styles = StyleSheet.create({
     paddingHorizontal:20,
     justifyContent:'space-between',
 
-    
-   
   },
+  container1:{
+    backgroundColor: '#000',
+    flexDirection:'column',
+
+  }
 });
