@@ -83,8 +83,8 @@ export default TitleBar
 
 const styles = StyleSheet.create({
     wholeContainer: {
-        padding: 5,
-        marginTop: 2,
+        marginTop: 35,
+
     },
     mainView: {
         flexDirection: 'row',
