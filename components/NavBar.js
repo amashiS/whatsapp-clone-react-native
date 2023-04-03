@@ -41,8 +41,8 @@ export default class navbar extends Component {
 const styles = StyleSheet.create({
     navbarContainer: {
         width: '100%',
-        height: 20,
-        backgroundColor: "#fff",
+        height: 70,
+        backgroundColor: "#171717",
         flexDirection: 'row',
         alignContent: 'center',
     },
