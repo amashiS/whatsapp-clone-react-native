@@ -7,9 +7,13 @@ export default function App() {
   return (
     <View style={styles.container}>
       <TitleBar/>
-      <NavBar/>
 
-      <StatusBar style="auto" />
+      <View style={styles.navbarstyle}>
+      <NavBar/>
+      </View>
+     
+
+      <StatusBar style="light" />
       
     </View>
   );
@@ -20,10 +24,15 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#000',
     flexDirection:'column',
-    paddingHorizontal:20,
+    paddingHorizontal:10,
     justifyContent:'space-between',
 
     
    
   },
+  navbarstyle:{
+    marginHorizontal:-10,
+
+  }
+
 });
