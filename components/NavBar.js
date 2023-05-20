@@ -51,6 +51,6 @@ const styles = StyleSheet.create({
         flexDirection:'column',
     },
     txt:{
-        color:'#f1f1f1',
+        color:'#hhhh',
     }
 })
