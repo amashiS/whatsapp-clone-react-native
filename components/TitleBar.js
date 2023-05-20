@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
     txtStyle: {
         fontSize: 18,
         color: '#2F81C8',
-        fontWeight: '450'
+        fontWeight: 400
 
     },
     brd: {
@@ -182,7 +182,6 @@ const styles = StyleSheet.create({
         paddingHorizontal: 35,
         marginTop: -27,
 
-        placeholderTextColor: '#fff'
 
     },
 
